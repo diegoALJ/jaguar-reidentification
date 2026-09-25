@@ -2,7 +2,7 @@
 
 A computer vision project for identifying individual jaguars from wildlife photographs using image embeddings and similarity-based retrieval.
 
-**Kaggle competition:** https://www.kaggle.com/competitions/round-2-jaguar-reidentification-challenge
+**Kaggle competition:** [https://www.kaggle.com/competitions/round-2-jaguar-reidentification-challenge](https://www.kaggle.com/competitions/jaguar-re-id)
 
 ## Project overview
 
@@ -73,9 +73,11 @@ Different image resolutions, embedding sizes, backbones, training lengths, and h
 
 The `notebooks/` folder is intentionally empty here so the original Kaggle notebooks can be added separately.
 
-## Organizers
+## Organizers and Citation
 
 The competition was organized by **KINETO.AI / Kineto UG** and the **Jaguar Identification Project**, with data connected to the Pantanal Jaguar ID effort.
+
+@misc{jaguarreidentification-kaggle-2026, author = {Rueda-Toicen, Antonio and Martin, Abigail}, title = {Jaguar Re-identification Kaggle Challenge}, year = {2026}, url = {https://www.kaggle.com/competitions/jaguar-re-id} }
 
 ## Disclaimer
 
