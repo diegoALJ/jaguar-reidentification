@@ -2,7 +2,7 @@
 
 A computer vision project for identifying individual jaguars from wildlife photographs using image embeddings and similarity-based retrieval.
 
-**Kaggle competition:** [https://www.kaggle.com/competitions/round-2-jaguar-reidentification-challenge](https://www.kaggle.com/competitions/jaguar-re-id)
+**Kaggle competition:** https://www.kaggle.com/competitions/jaguar-re-id
 
 ## Project overview
 
