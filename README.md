@@ -1,4 +1,4 @@
-# Jaguar Re-Identification Challenge
+# Jaguar Re-Identification Challenge 🐆
 
 A computer vision project for identifying individual jaguars from wildlife photographs using image embeddings and similarity-based retrieval.
 
