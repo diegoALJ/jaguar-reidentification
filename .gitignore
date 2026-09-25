@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data
+data/
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Model outputs
+outputs/*
+!outputs/.gitkeep
+results/*
+!results/.gitkeep
+*.pth
+*.pt
+*.ckpt
+
+# Kaggle / generated submissions
+submission*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets / env
+.env

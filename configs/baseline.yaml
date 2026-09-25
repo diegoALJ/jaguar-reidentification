@@ -1,0 +1,44 @@
+# Central experiment configuration
+seed: 42
+
+paths:
+  train_csv: data/train.csv
+  train_images: data/train
+  test_csv: data/test.csv
+  test_images: data/test
+  sample_submission: data/sample_submission.csv
+  offline_train_dir: outputs/preprocessed_train_256
+  offline_test_dir: outputs/preprocessed_test_256
+  checkpoints_dir: outputs/checkpoints
+
+image:
+  size: 256
+  use_alpha_crop: true
+  background: black
+  keep_aspect_ratio: true
+  offline_format: jpg
+  jpeg_quality: 95
+
+model:
+  name: convnext_small.in12k_ft_in1k
+  embedding_dim: 512
+  head_type: linear
+  dropout: 0.1
+  arcface_s: 30.0
+  arcface_m: 0.35
+
+training:
+  n_splits: 5
+  epochs: 15
+  batch_size: 16
+  num_workers: 4
+  backbone_lr: 0.00005
+  head_lr: 0.0002
+  weight_decay: 0.0001
+  min_lr: 0.000001
+  use_amp: true
+  use_weighted_sampler: true
+
+inference:
+  ensemble_folds: true
+  map_similarity_to_01: true
