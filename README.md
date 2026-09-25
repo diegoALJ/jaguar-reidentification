@@ -16,9 +16,15 @@ The training set contains labeled photographs of 31 individual jaguars. The test
 
 The images vary in pose, lighting, sharpness, viewpoint, and segmentation quality. Some identities also have many more photographs than others.
 
+**Marcela Front Image**
+
 <img width="675" height="763" alt="Marcela_front" src="https://github.com/user-attachments/assets/8dbccce5-2f4d-4852-9873-09ee77440374" />
 
+**Marcela left Image**
+
 <img width="731" height="522" alt="Marcela_left" src="https://github.com/user-attachments/assets/c71d00bd-0efa-4d1c-b34a-fa573630578f" />
+
+**Marcela right Image**
 
 <img width="731" height="522" alt="Marcela_right" src="https://github.com/user-attachments/assets/3dfc16bf-1e0a-4963-ad16-9aa99846bf34" />
 
